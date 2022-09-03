@@ -1,0 +1,7 @@
+main{
+    border-top: 50px solid rgb(255, 255, 255); 
+    border-left: 25px solid transparent; 
+    border-right: 25px solid transparent; 
+    height: 0; 
+    width: 50px;
+}
