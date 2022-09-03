@@ -23,3 +23,13 @@
 .form-indica > div > div > input {
     width: 100%;
 }
+
+@media (max-width: 720px){
+    .form-indica > div {
+        width: 90%;
+        flex-direction: column  ;
+    }
+    .form-indica > div > div {
+        width: 100%;
+    }
+}
