@@ -30,7 +30,6 @@ export default function Selection(){
                         precoNovo={produto.price}
                         numeroParcelas={produto.installments.count}
                         valorParcela={produto.installments.value}
-                        largura={"200px"}
                         color={"#707070"}
                     />
                 ))}

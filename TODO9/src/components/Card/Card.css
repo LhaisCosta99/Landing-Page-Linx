@@ -15,3 +15,27 @@
     width: 90%;
     text-align: center;
 }
+
+.card > div > h4, .card > div > h3, .card > div > p {
+    margin: 5%;
+}
+
+@media (max-width: 720px) {
+    .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card > img {
+        width: 40%;
+    }
+    .card > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+    .card > div > h4, .card > div > h3, .card > div > p {
+        margin: 2%;
+    }
+}
