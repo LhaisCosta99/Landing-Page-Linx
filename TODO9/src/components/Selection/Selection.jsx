@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
+import APIService from '../../services/APIService'
 import Button from '../Button/Button'
 import Card from '../Card/Card'
 import TituloSection from '../Titulo-Section/TituloSection'
@@ -9,9 +10,11 @@ export default function Selection(){
     const [lista, setLista] = useState([])
 
     useEffect(() => {
-        fetch("https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1")
-        .then(response => response.json())
-        .then(response => setLista(response.products))
+        async function request(){
+            const newLista = await APIService()
+            setLista(newLista.products)
+        }
+        request()
     }, [])
 
 
