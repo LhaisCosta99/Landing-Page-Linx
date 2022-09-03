@@ -1,7 +1,7 @@
 import './Button.css'
 
-export default function Button({texto}){
+export default function Button({texto, borda, classe}){
     return (
-        <button>{texto}</button>
+        <button style={{border: `${borda}`}} className={classe}>{texto}</button>
     )
 }

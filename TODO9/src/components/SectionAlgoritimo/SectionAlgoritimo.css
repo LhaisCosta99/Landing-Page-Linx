@@ -1,0 +1,28 @@
+.algoritimo{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    color: #888888;
+}
+
+.algoritimo > div {
+    width: 40%;
+    text-align: left;
+}
+
+.formulario-algoritimo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.formulario-algoritimo > div{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.button-algoritimo, .formulario-algoritimo > input, .formulario-algoritimo > p{
+    width: 90%;
+}
