@@ -27,4 +27,7 @@
     .card {
         width: 100%;
     }
+    .button-selection{
+        width: 70%;
+    }
 }
