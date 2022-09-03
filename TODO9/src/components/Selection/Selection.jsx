@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 import Button from '../Button/Button'
 import Card from '../Card/Card'
+import TituloSection from '../Titulo-Section/TituloSection'
 import './Selection.css'
 
 export default function Selection(){
@@ -16,11 +17,7 @@ export default function Selection(){
 
     return (
         <div className='Selection'>
-            <div className='titulo-selection'>
-                <hr />
-                <h4>Sua seleção Especial</h4>
-                <hr />
-            </div>
+            <TituloSection texto={'Sua seleção Especial'} />
             <div className='cards'>
                 {lista.map(produto => (
                     <Card 
