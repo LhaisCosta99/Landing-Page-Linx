@@ -3,7 +3,7 @@ import './SectionAlgoritimo.css'
 
 export default function SectionAlgoritimo(){
     return (
-        <section className='algoritimo'>
+        <section className='algoritimo' id='algoritimo'>
             <div>
                 <h4>Ajude o algorítimo a ser mais certeiro</h4>
                 <p>

@@ -25,7 +25,7 @@ export default function Selection(){
 
 
     return (
-        <div className='Selection'>
+        <div className='Selection' id='Selection'>
             <TituloSection texto={'Sua seleção Especial'} />
             <div className='cards'>
                 {lista.map(produto => (

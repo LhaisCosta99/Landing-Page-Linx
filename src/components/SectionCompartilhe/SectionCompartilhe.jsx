@@ -4,7 +4,7 @@ import './SectionCompartilhe.css'
 
 export default function SectionCompartilhe(){
     return (
-        <div className='Section-Compartilhe'>
+        <div className='Section-Compartilhe' id='Section-Compartilhe'>
             <TituloSection texto={'Compartilhe a novidade'} />
             <FormIndica />
         </div>
