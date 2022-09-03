@@ -1,0 +1,17 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > img {
+    width: 90%;
+    height: 40%;
+    object-fit: cover;
+}
+.button-card{
+    width: 90%;
+    text-align: center;
+}
