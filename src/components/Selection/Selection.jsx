@@ -8,13 +8,19 @@ import './Selection.css'
 
 export default function Selection(){
     const [lista, setLista] = useState([])
+    const [count, setCount] = useState(1)
+
+
+    function require(){
+        const newCount = count + 1
+        APIService(newCount)
+        .then(response => setLista([...lista, ...response.products]))
+        setCount(newCount)
+    }
 
     useEffect(() => {
-        async function request(){
-            const newLista = await APIService()
-            setLista(newLista.products)
-        }
-        request()
+        APIService(count)
+        .then(response => setLista([...lista, ...response.products]))
     }, [])
 
 
@@ -37,7 +43,7 @@ export default function Selection(){
                     />
                 ))}
             </div>
-            <Button texto={"Ainda mais produtos aqui!"} borda={"#888888 solid 1px"} classe={"button-selection"} />
+            <Button texto={"Ainda mais produtos aqui!"} borda={"#888888 solid 1px"} classe={"button-selection"} click={require} />
         </div>
     )
 }
