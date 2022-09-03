@@ -1,6 +1,6 @@
 import './Header.css'
-import triangule from '../../assets/triangule.png'
 import Button from '../Button/Button'
+import triangule from '../../assets/triangule.png'
 
 export default function Header(){
     return(

@@ -3,18 +3,16 @@ header {
     flex-direction: column;
     align-items: center;
     color: #FFFFFF;
+    background-color: #707070;
     width: 100%;
     height: 399px;
-    background: #707070 0% 0% no-repeat padding-box;
     opacity: 1;
-    font-family: Arial, Helvetica, sans-serif;
     border-spacing: 2px;
-    z-index: 1;
 }
 
 header > img{
-    margin-top: 0;
-    height: 30%;
+    margin-top: auto;
+    height: 100px;
     width: 100%;
     z-index: 2;
 }
@@ -36,6 +34,6 @@ header > div {
     justify-content: space-between;
     width: 770px;
     height: 50px;
-    margin-top: 6%;
+    margin-top: 4%;
     z-index: 3;
 }

@@ -2,9 +2,13 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  height: fit-content;
 }
 
 .Home{
+  height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #FFFFFF;
+  margin: 0;
 }
