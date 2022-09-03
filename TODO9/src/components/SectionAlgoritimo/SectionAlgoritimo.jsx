@@ -32,7 +32,7 @@ export default function SectionAlgoritimo(){
             <div className='formulario-algoritimo'>
                 <p>Seu nome:</p>
                 <input type="text" />
-                <p>E-mail</p>
+                <p>E-mail:</p>
                 <input type="text" />
                 <p>CPF:</p>
                 <input type="text" /> 

@@ -31,6 +31,7 @@ export default function Selection(){
                         numeroParcelas={produto.installments.count}
                         valorParcela={produto.installments.value}
                         largura={"200px"}
+                        color={"#707070"}
                     />
                 ))}
             </div>

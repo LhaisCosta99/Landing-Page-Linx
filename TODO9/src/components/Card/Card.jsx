@@ -11,10 +11,11 @@ export default function Card({
     numeroParcelas,
     valorParcela,
     altura,
-    largura
+    largura, 
+    color
 }){
     return(
-        <div className='card' style={{width: `${largura}`, height: `${altura}`}}>
+        <div className='card' style={{width: `${largura}`, height: `${altura}`, color: `${color}`}}>
             <img src={imagem} alt={imagemDescription} />
             <h4>{nomeProduto}</h4>
             <p>{description}</p>
